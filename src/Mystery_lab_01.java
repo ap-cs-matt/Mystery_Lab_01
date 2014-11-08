@@ -11,16 +11,10 @@ public class Mystery_lab_01 extends Applet
 		g.setColor(Color.blue);
 		g.drawRect(100,100,200,200);
 		g.drawRect(175,175,200,200);
-		
 		g.drawLine(100,100,175,175);
 		g.drawLine(300,300,375,375);
-		
 		g.drawLine(100,300,175,375);
 		g.drawLine(300,100,375,175);
-
-		
-//github is awesome!
-
 
 		// DRAW SPHERE
 		g.setColor(Color.red);
@@ -90,7 +84,6 @@ public class Mystery_lab_01 extends Applet
        g.fillRect(315,435,15,50);
       
 
-
 		// DRAW PACMEN FLOWER
 		g.setColor(Color.green);
 		
@@ -98,9 +91,6 @@ public class Mystery_lab_01 extends Applet
 		g.fillArc(365,435,100,100,-225,270);
 		g.fillArc(430, 500, 100, 100, 45, 270);
 		g.fillArc(365,565,100,100,-45,270);
-
-
-
 	}
 
 }
